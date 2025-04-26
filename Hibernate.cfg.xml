@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration 
+	DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd"> -->
+<hibernate-configuration>
+	<session-factory>
+		<!-- Database connection settings -->
+		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/MediaPlatform
+		</property>
+		<property name="connection.username">srushti</property>
+		<property name="connection.password">root</property>
+		<!-- Automatically create or update database schema -->
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		<!-- Specify the dialect for your database -->
+		<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+		<!-- Enable or disable showing SQL statements in the console -->
+		<property name="show_sql">true</property>
+		<property name="format_sql">true</property>
+		<mapping class="com.media.entity.User" />
+		<mapping class="com.media.entity.SocialGrps" />
+		<mapping class="com.media.entity.Messages" />
+		<mapping class="com.media.entity.Friends" />
+		<mapping class="com.media.entity.Posts" />
+		<mapping class="com.media.entity.Sign_up" />
+		<mapping class="com.media.entity.Login" />
+	</session-factory>
+</hibernate-configuration>
