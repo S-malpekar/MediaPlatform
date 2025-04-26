@@ -1,0 +1,9 @@
+The Social Media Platform project is a console-based application developed using **Java**, **Hibernate**, and **MySQL**. It is designed to simulate the core functionalities of popular social networking sites while focusing on backend development and database management. The project allows users to register, log in, create posts, like and comment on posts, send and accept friend requests, and exchange messages with their friends.  
+
+The system is structured around multiple entities such as User, Post, Comment, FriendRequest, and Message, each with their own attributes and relationships. It uses Hibernate ORM to efficiently map Java classes to database tables, simplifying CRUD operations and maintaining data consistency. The database is managed through MySQL, ensuring secure and reliable data storage.  
+
+The main goal of the project is to demonstrate how object-oriented programming concepts, relational databases, and ORM tools can be combined to create a real-world inspired application. Although the project runs on a console interface without a graphical front-end, it effectively captures the essential activities of a modern social media platform. Features like one-to-many and many-to-many relationships between users and posts, handling friend requests, and comment management offer a realistic simulation of complex data interactions.  
+
+Through this project, we focus on building strong backend logic, managing data relationships, and understanding the importance of a well-structured database. It highlights the ability to think through system design, user flows, and data operations, which are crucial skills for backend development.  
+
+Overall, this Social Media Platform project serves as a comprehensive learning experience, blending Java programming skills with database handling and Hibernate ORM techniques, preparing us for larger-scale application development in the future.
